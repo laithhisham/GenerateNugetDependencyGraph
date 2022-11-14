@@ -9,6 +9,12 @@ Have graphviz installed on your machine (needed to pass in the -v flag) download
 execute 
 * `DGVisulizer.exe -g <path to dg file> -v <Graphviz bin path> -o <output file path>`
 
+example
+
+`DGVisulizer.exe -g C:\git\SomeRepo\graph.dg -v C:\Graphviz\bin -o c:\temp\nugetgrapth.jpg`
+
+**Note: temp folder must exists**
+
 
 
 ## Related blog post
